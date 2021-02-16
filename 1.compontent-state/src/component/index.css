@@ -1,0 +1,31 @@
+.layout {
+  width: 100vw;
+  height: 100vh;
+  font-family: "roboto", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  width: 100vw;
+  height: 80px;
+  color: #fff;
+  background-color: #1a1b1f;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  max-width: 900px;
+  width: 60%;
+  height: 450px;
+  border: 1px solid #676767;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
