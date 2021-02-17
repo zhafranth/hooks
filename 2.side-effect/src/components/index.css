@@ -1,0 +1,20 @@
+.layout {
+  width: 100vw;
+  /* height: 100vh; */
+  font-family: "roboto", sans-serif;
+}
+.header {
+  width: 100vw;
+  height: 80px;
+  color: #fff;
+  background-color: #1a1b1f;
+  position: fixed;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content {
+  padding: 0 12vw;
+  margin-top: 120px;
+}
