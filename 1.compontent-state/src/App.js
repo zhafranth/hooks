@@ -20,19 +20,6 @@ function App() {
     });
   };
 
-  // const handleLike = () => {
-  //   setState((currentState) => ({
-  //     ...state,
-  //     like: currentState.like + 1,
-  //   }));
-  // };
-
-  // const handleTripleLike = () => {
-  //   handleLike();
-  //   handleLike();
-  //   handleLike();
-  // };
-
   return (
     <div className="App">
       <Layout title="React Hooks #1 - Component State">
